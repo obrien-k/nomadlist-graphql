@@ -1,0 +1,12 @@
+extend schema
+  @link(url: "https://specs.apollo.dev/federation/v2.0", import: ["@key"])
+
+type Query {
+  "Retrieves @kyleob's Nomad List profile"
+  Profile: Profile
+}
+
+type Profile {
+  photo: String!
+  username: String!
+}

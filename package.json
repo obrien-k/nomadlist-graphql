@@ -1,0 +1,30 @@
+{
+  "name": "nomadlist-graphql",
+  "version": "0.0.1",
+  "description": "back and front end for nomadlist json https://nomadlist.com/@kyleob.json",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obrien-k/nomadlist-graphql.git"
+  },
+  "keywords": [],
+  "author": "Kyle OBrien<obrienk@webbhost.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/obrien-k/nomadlist-graphql/issues"
+  },
+  "homepage": "https://github.com/obrien-k/nomadlist-graphql#readme",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.9.3",
+    "graphql": "^16.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "typescript": "^5.2.2"
+  }
+}
